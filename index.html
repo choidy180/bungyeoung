@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>text</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+</head>
+<body>
+    <!-- 메인 배너 -->
+     <div class="top_banner">
+        <img src="images/1920-867-캐치-티니핑.jpg" alt="">
+        <p>캐치! 티니핑</p>
+        <div class="banner">
+            <div class="black"></div>
+            <div class="top_banner_select">
+                <div class="series" onclick="select_banner('series')">
+                    <span>SERIES</span>
+                    <div class="top_line series"></div>
+                </div>
+                <div class="movies" onclick="select_banner('movies')">
+                    <span>MOVIES</span>
+                    <div class="top_line movies"></div>
+                </div>
+            </div>
+        </div>
+     </div>
+
+     <!-- 탭 박스 -->
+     <div class="title-tab-stage">
+        <div class="series">
+            <div class="content">
+                <img src="images/POSTER_T5_01.jpg" alt="">
+                <p>슈팅스타 캐치! 티니핑</p>
+            </div>
+            <div class="content">
+                <img src="images/POSTER_T_01_vertical_low-723x1024.jpg" alt="">
+                <p>새콤달콤 캐치! 티니핑</p>
+            </div>
+            <div class="content">
+                <img src="images/IMG_8534022-768x1024.png" alt="">
+                <p>알쏭달쏭 캐치! 티니핑</p>
+            </div>
+            <div class="content">
+                <img src="images/POSTER_001-e1632070217653-734x1024.jpg" alt="">
+                <p>반짝반짝 캐치! 티니핑</p>
+            </div>
+        </div>
+        <div class="movies">
+            <div class="content">
+                <img src="images/사랑의-하츄핑_메인-포스터_KB-717x1024.jpg" alt="">
+                <p>사랑의 하츄핑</p>
+            </div>
+        </div>
+     </div>
+
+     <div class="catch-tab">
+        <img src="images/catchteenieping_poster_kor-724x1024.png" alt="">
+        <div class="text-content">
+            <h1>캐치! 티니핑</h1>
+            <h2>피리피리 캐치링, 티니핑 캐치!</h2>
+
+            <p class="story">
+                티니핑을 캐치하기 위해 지구에 온 이모션 왕국의 로미 공주!<br/>
+                베이커리 하트로즈에서 사촌언니를 도우며 일상을<br/>
+                보내지만, 티니핑이 나타나면 마법의 콤팩트로<br/>
+                티니핑을 캐치한다. 항상 옆을 지켜주는 로열 티니핑들과<br/>
+                어려움을 극복해가는 로미는 과연 티니핑을 모두 캐치하고 왕국으로 돌아 갈 수 있을까?
+            </p>
+
+            <p><b>-</b><span> 작품명</span>캐치! 티니핑</p>
+            <p><b>-</b><span> 구성</span>11 min x 52eps</p>
+            <p><b>-</b><span> 장르</span>드라마, 판타지</p>
+            <p><b>-</b><span> 방영</span>2020</p>
+            <h5>CATCHTEENIEPING ⓒ SAMG/SAMJIN. All rights reserved.</h5>
+
+            <div class="logo-box">
+                <img src="images/logo-youtube.svg" onclick="window.open(`https://www.youtube.com/channel/UCtm_ppWxsfRzxaYXMA2bqMw`)" alt="">
+                <img src="images/logo-instagram.svg" onclick="window.open(`https://www.instagram.com/catch_teenieping_official`)" alt="">
+                <img src="images/logo-tiktok.svg" onclick="window.open(`https://www.tiktok.com/@catchteenieping_official`)" alt="">
+            </div>
+        </div>
+     </div>
+
+     <div class="characters">
+        <h1 class="title">CHARACTERS</h1>
+        <div class="section">
+            <div class="content-box">
+                <div class="inner">
+                    <div class="nav-item" onclick="select_character(1)">
+                        <div class="icon">
+                            <img src="https://samg.net/2020/wp-content/uploads/2020/08/romi_001-150x150.png" alt="">
+                        </div>
+                        <p>로미</p>
+                    </div>
+                    <div class="nav-item" onclick="select_character(2)">
+                        <div class="icon">
+                            <img src="https://samg.net/2020/wp-content/uploads/2020/08/heartsping_017-150x150.png" alt="">
+                        </div>
+                        <p>하츄핑</p>
+                    </div>
+                    <div class="nav-item" onclick="select_character(3)">
+                        <div class="icon">
+                            <img src="https://samg.net/2020/wp-content/uploads/2020/08/baroping_009-150x150.png" alt="">
+                        </div>
+                        <p>바로핑</p>
+                    </div>
+                    <div class="nav-item" onclick="select_character(4)">
+                        <div class="icon">
+                            <img src="https://samg.net/2020/wp-content/uploads/2020/08/ajaping_011-150x150.png" alt="">
+                        </div>
+                        <p>아자핑</p>
+                    </div>
+                    <div class="nav-item" onclick="select_character(5)">
+                        <div class="icon">
+                            <img src="https://samg.net/2020/wp-content/uploads/2020/08/chachaping_009-150x150.png" alt="">
+                        </div>
+                        <p>차차핑</p>
+                    </div>
+                    <div class="nav-item" onclick="select_character(6)">
+                        <div class="icon">
+                            <img src="https://samg.net/2020/wp-content/uploads/2020/08/lalaping_001-150x150.png" alt="">
+                        </div>
+                        <p>라라핑</p>
+                    </div>
+                    <div class="nav-item" onclick="select_character(7)">
+                        <div class="icon">
+                            <img src="https://samg.net/2020/wp-content/uploads/2020/08/group_friends_002__-150x150.png" alt="">
+                        </div>
+                        <p>친구들</p>
+                    </div>
+                    <div class="nav-item" onclick="select_character(8)">
+                        <div class="icon">
+                            <img src="https://samg.net/2020/wp-content/uploads/2020/08/heartrose_001-150x150.png" alt="">
+                        </div>
+                        <p>하트로즈 베이커리</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="characters-main-img character1">
+                <div class="content-character-img item1">
+                    <img src="https://samg.net/2020/wp-content/uploads/2020/08/romi_003.png" alt="">
+                </div>
+                <div class="content-character-img item2">
+                    <img src="https://samg.net/2020/wp-content/uploads/2020/08/heartsping_003.png" alt="">
+                </div>
+                <div class="content-character-img item3">
+                    <img src="https://samg.net/2020/wp-content/uploads/2020/08/baroping_012-674x1024.png" alt="">
+                </div>
+                <div class="content-character-img item4">
+                    <img src="https://samg.net/2020/wp-content/uploads/2020/08/ajaping_013.png" alt="">
+                </div>
+                <div class="content-character-img item5">
+                    <img src="https://samg.net/2020/wp-content/uploads/2020/08/chachaping_011.png" alt="">
+                </div>
+                <div class="content-character-img item6">
+                    <img src="https://samg.net/2020/wp-content/uploads/2020/08/lalaping_008.png" alt="">
+                </div>
+                <div class="content-character-img item7">
+                    <img src="https://samg.net/2020/wp-content/uploads/2020/08/group_friends_002.png" alt="">
+                </div>
+                <div class="content-character-img item8">
+                    <img src="https://samg.net/2020/wp-content/uploads/2020/08/heartrose_002.png" alt="">
+                </div>
+            </div>
+
+            <div class="characters-main-text character1">
+                <div class="content-character-text item1">
+                    <h5>Romi</h5>
+                    <h4>로미</h4>
+                    <p>
+                        당차고 쾌활한 이모션 왕국의 공주님!<br/>
+                        마음의 요정, 티니핑들을 지구로 풀어놓는 실수를 저지르는 바람에<br/>
+                        마법의 프린세스가 되어 티니핑을 캐치하는 임무를 받고 하모니 마을로 오게 되었다
+                    </p>
+                </div>
+                <div class="content-character-text item2">
+                    <h5>Heartsping</h5>
+                    <h4>하츄핑</h4>
+                    <p>
+                        애교 넘치는 사랑의 티니핑!<br/>
+                        사랑과 배려심이 넘치는 하츄핑은 언제나 친구들을 도와주고 싶어하는 애교 많은 사랑둥이 티니핑으로<br/>
+                        '사랑의 빛' 손거울에서 빛을 발산하여 어둠을 밝히거나 상대를 눈부시게 하는 마법을 사용한다.
+                    </p>
+                </div>
+                <div class="content-character-text item3">
+                    <h5>Baroping</h5>
+                    <h4>바로핑</h4>
+                    <p>
+                        성실한 올바름의 티니핑!<br/>
+                        바른 생활의 FM 요정 바로핑은 정해진 시간에 정해진 일을 해야 직성이 풀리고 상대방도 올바른 생활을 하게 만들고 싶어한다. '올바른 문법' 책을 펼치면 신기한 글자들이 날아가 상대 주변을 맴돌게 하는 마법을 사용한다.
+                    </p>
+                </div>
+                <div class="content-character-text item4">
+                    <h5>Ajaping</h5>
+                    <h4>아자핑</h4>
+                    <p>
+                        열혈스타일 용기의 티니핑!<br/>
+                        생각보다 몸이 먼저 움직이는 열혈 스타일로 겁이 없지만, 위급한 상황이 오면 친구들을 위해 누구보다 먼저 나서는 티니핑. '용기의 플래시'로 사진을 찍으면 잠시 동안 대상이 움직이지 못하는 마법을 사용한다.
+                    </p>
+                </div>
+                <div class="content-character-text item5">
+                    <h5>Chachaping</h5>
+                    <h4>차차핑</h4>
+                    <p>
+                        낙관적인 희망의 티니핑!<br/>
+                        느긋하고 여유로운 성격으로 어려울때면 희망을 잃지 않고 친구들을 격려하는 차차핑은 '희망의 물줄기'로 사물의 크기를 키울수 있고, 식물을 빨리 자라게 하거나 다시 생생하게 만드는 마법을 사용한다.
+                    </p>
+                </div>
+                <div class="content-character-text item6">
+                    <h5>Lalaping</h5>
+                    <h4>라라핑</h4>
+                    <p>
+                        쾌활한 즐거움의 티니핑!<br/>
+                        항상 즐겁고 쾌활한 성격으로 남을 웃게 만드는 것을 좋아하는 라라핑은 티니핑의 분위기 메이커! 노래하는 것을 매우 좋아하고 '즐거운 댄스' 마법으로 라라핑이 노래를 부르면 상대로 어느 순간 춤을 추게 만든다.
+                    </p>
+                </div>
+                <div class="content-character-text item7">
+                    <h5>Friends</h5>
+                    <h4>친구들</h4>
+                    <p>
+                        · 마야 : 상냥한 성격의 로미 절친이자 인기 BJ<br/><br/>
+                        · 메리루 : 활발하고 승부욕 강한 스포티한 소녀
+                    </p>
+                </div>
+                <div class="content-character-text item8">
+                    <h5>Heart Rose</h5>
+                    <h4>하트로즈 베이커리</h4>
+                    <p>
+                        · 사라 : 하트로즈의 사장으로 이모션 왕국의 왕족이자 로미의 사촌언니.<br/><br/>
+                        · 이안 : 다정한 성격의 배려남으로 요리사인 아버지 영향으로 파티셰가 되었다.<br/><br/>
+                        · 카일 : 츤데레 스타일로 '하트로즈'에서 파티셰가 되기 위해 꿈을 키우고 있다.<br/><br/>
+                        · 준 : 활발하고 낙천적인 성격의 소년으로 애교 가득한 말투가 매력적인 하트로즈의 막내이다.
+                    </p>
+                </div>
+            </div>
+
+            <div class="section-back"></div>
+        </div>
+    </div>
+    <div class="episode">
+        <h1 class="title">EPISODE</h1>
+        <iframe width="1160" height="652" src="https://www.youtube.com/embed/pglnkdt-RSk?si=SxW7Ax3EoR-jRKds" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+</body>
+</html>
